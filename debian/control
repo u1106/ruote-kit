@@ -1,0 +1,19 @@
+Source: ruote-kit
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders:  <>
+DM-Upload-Allowed: yes
+Build-Depends: debhelper (>= 7.0.50~), gem2deb (>= 0.1.0)
+Standards-Version: 3.9.1
+#Vcs-Git: git://git.debian.org/collab-maint/libnet-jabber-loudmouth-perl.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/libnet-jabber-loudmouth-perl.git;a=summary
+Homepage: http://github.com/tosch/ruote-kit
+
+Package: ruby-ruote-kit
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+# sinatra (= 1.0), sinatra-respond_to (= 0.5.0), haml (= 3.0.25), rufus-json (>= 0.2.5), ruote (>= 2.2.0), rspec (= 2.4.0), rack-test (= 0.5.7), webrat (= 0.7.3)
+Description: ruote workflow engine, wrapped in a loving rack embrace
+ .\n ruote workflow engine, wrapped in a loving rack embrace
+
