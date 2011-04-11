@@ -70,18 +70,18 @@ Test::Unit or RSpec files, useful for developers.
 %{__rm} -rf %{buildroot}
 
 %files
-%defattr(-,root,root,-)
+%defattr(644,root,root,755)
 %{_libdir}/ruby/gems/%{rb_ver}/cache/%{mod_name}-%{version}.gem
 %{_libdir}/ruby/gems/%{rb_ver}/gems/%{mod_name}-%{version}/
 %exclude %{_libdir}/ruby/gems/%{rb_ver}/gems/%{mod_name}-%{version}/spec
 %{_libdir}/ruby/gems/%{rb_ver}/specifications/%{mod_name}-%{version}.gemspec
 
 %files doc
-%defattr(-,root,root,-)
+%defattr(644,root,root,755)
 %doc %{_libdir}/ruby/gems/%{rb_ver}/doc/%{mod_name}-%{version}/
 
 %files testsuite
-%defattr(-,root,root,-)
+%defattr(644,root,root,755)
 %{_libdir}/ruby/gems/%{rb_ver}/gems/%{mod_name}-%{version}/spec
 
 %changelog
