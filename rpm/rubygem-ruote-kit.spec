@@ -27,12 +27,12 @@ License:        MIT
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 BuildRequires:  rubygems_with_buildroot_patch
 %rubygems_requires
-BuildRequires:  rubygem-sinatra = 1.0
-Requires:       rubygem-sinatra = 1.0
-BuildRequires:  rubygem-sinatra-respond_to = 0.5.0
-Requires:       rubygem-sinatra-respond_to = 0.5.0
-BuildRequires:  rubygem-haml = 3.0.25
-Requires:       rubygem-haml = 3.0.25
+BuildRequires:  rubygem-sinatra >= 1.0
+Requires:       rubygem-sinatra >= 1.0
+BuildRequires:  rubygem-sinatra-respond_to >= 0.5.0
+Requires:       rubygem-sinatra-respond_to >= 0.5.0
+BuildRequires:  rubygem-haml >= 3.0.25
+Requires:       rubygem-haml >= 3.0.25
 BuildRequires:  rubygem-rufus-json >= 0.2.5
 Requires:       rubygem-rufus-json >= 0.2.5
 BuildRequires:  rubygem-ruote >= 2.2.0
