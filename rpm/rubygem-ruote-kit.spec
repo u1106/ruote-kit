@@ -18,7 +18,7 @@
 # norootforbuild
 Name:           rubygem-ruote-kit
 Version:        2.2.1
-Release:        0
+Release:        1
 %define mod_name ruote-kit
 #
 Group:          Development/Languages/Ruby

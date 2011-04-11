@@ -1,3 +1,9 @@
+ruby-ruote-kit (2.2.0.3-2) UNRELEASED; urgency=low
+
+  * Loosen runtime deps in the gemsepc to allow testing
+
+ -- Islam Amer <islam.amer@nokia.com>  Mon, 11 Apr 2011 17:18:16 +0300
+
 ruby-ruote-kit (2.2.0.3-1) UNRELEASED; urgency=low
 
   * Initial release based on gem2deb
