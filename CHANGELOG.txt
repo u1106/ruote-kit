@@ -2,9 +2,12 @@
 = ruote-kit - CHANGELOG.txt
 
 
-== ruote-kit - 2.2.1    not yet released
+== ruote-kit - 2.2.1    not yet released (only cherries picked)
 
+- ruote-fluo adapted to FF7 (mozDrawText -> fillText)
 - fixed issue with :skip vs :offset for query_workitems (Thanks Eric Smith)
+- Upgraded to jQuery 1.6.1 
+- Upgraded to jQuery 1.5.2 (Simone Carletti)
 
 
 == ruote-kit - 2.2.0    released 2011/03/02
